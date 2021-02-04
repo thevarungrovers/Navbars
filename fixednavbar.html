@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Fixed Navbar</title>
+    <!-- css -->
+    <style>
+            /* image */
+    .image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* download */
+    .download{
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        z-index: 1;
+        border: 1px solid #3498db;
+        font-size: 20px;
+        background: #3498db;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .download a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .home img{
+        height: 36px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    /* navbar */
+    .navbar{
+        background-color: #34495e;
+        width: 180px;
+        height: 100%;
+        position: fixed;
+        font-size: 28px;
+        padding-left: 12px;
+        z-index: 999;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color: #95a5a6;
+    }
+
+    .navbar a:hover{
+        color: #ecf0f1;
+    }
+
+    @media screen and (min-width:600px){
+        .navbar{
+            width: 200px;
+            font-size: 30px;
+        }
+    }
+    </style>
+
+  </head>
+  <body>
+    
+    <!-- navbar -->
+    <div id="nav" class="navbar">
+        <ul>
+          <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Skills</li></a>
+            <a href="#"><li>Projects</li></a>
+            <a href="#"><li>Contact</li></a>
+        </ul>
+    </div>
+
+    <div class="image">
+        <img src="https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80" alt="">
+    </div>
+
+    
+    <!-- home button -->
+    <div class="home">
+        <a href="index.html"><img src="https://i.ibb.co/hRXv07J/white-menu.png" alt=""></a>
+    </div>
+
+    <div class="download">
+        <a href="fixednavbar.html" download>Click here to Download it </a>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
